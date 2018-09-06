@@ -1,0 +1,13 @@
+*.pyc
+.idea/
+geckodriver.log
+ghostdriver.log
+log.html
+output.xml
+pabot_results/
+report.html
+screenshot_popup.png
+LoginSettings.py
+RegistrationSettings.py
+LoginPageTest.robot
+RegistrationPageTest.robot

@@ -45,8 +45,7 @@ class RegistrationPage():
             BuiltIn().fail('Redirect was incorrect to {0}'.format(lurl))
 
     def Verify_message(self):
-        Base_methods().switch_to_popup(Locators.success_msg, Settings.Success_msg)
-        # Base_methods().get_text_in_message(Locators.success_msg)
+        Base_methods().get_text_in_message(Locators.success_msg)
 
 
 

@@ -15,7 +15,7 @@ Test Registration Page
     [Tags]    RegistrationPage (Registration with correct data)
     go to url           ${URL}
     registration to site
-    #Verify message
+    verify message
     get url
     verify page
     go to url           ${profile_url}

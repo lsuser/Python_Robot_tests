@@ -85,6 +85,6 @@ class Base_methods():
     def get_text_in_message(self, locator):
         driver = BuiltIn().get_variable_value('${BROWSER}')
         element = driver.find_element_by_css_selector(locator)
-        text = element.get_text()
-        BuiltIn().log('msg - {0}'.format(text), console=True)
+        text = element.text
+        BuiltIn().log('The message after registration - {0}'.format(text), console=True)
         return text
